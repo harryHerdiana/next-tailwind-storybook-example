@@ -15,9 +15,9 @@ type Story = StoryObj<typeof TextInput>;
 
 export const Primary: Story = {
   args: {
-    size: 'medium',
-    backgroundColor: 'primary',
-    label: 'Label',
+    size: 'small',
+    backgroundColor: 'secondary',
+    label: 'Primary',
   },
 };
 
@@ -25,7 +25,7 @@ export const Secondary: Story = {
     args: {
       size: 'medium',
       backgroundColor: 'secondary',
-      label: 'Test',
+      label: 'Secondary',
     },
   };
 
@@ -33,6 +33,6 @@ export const Secondary: Story = {
     args: {
       size: 'medium',
       backgroundColor: 'danger',
-      label: 'Test',
+      label: 'Danger',
     },
   };
